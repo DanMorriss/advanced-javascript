@@ -12,7 +12,7 @@ console.log("Sum 1:", sum);
 let sum2 = sumAll(1, 2, 3, 4, 5, 6);
 console.log("Sum 2:", sum2);
 
-// Function using ...rest (any word can be used other tha rest
+// Function using ...rest (any word can be used other than rest
 const sumRest = (a, b, c, ...rest) => {
     let sum = a + b + c;
     for (let i of rest) {
