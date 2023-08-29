@@ -24,7 +24,7 @@ console.log(mapResults);
 const simplified = nums.map(function (num) {return num *2});
 console.log(simplified);
 
-// Simplfied w/ map() + arrow function
+// Simplified w/ map() + arrow function
 const arrow = nums.map(num => num *2);
 console.log(arrow);
 
